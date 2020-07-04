@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node src/index.js"
-  },
-    "publishConfig": {
-    "registry":"https://emori-servulo.github.io/pizarra/"
+    "start": "node src/index.js",
+    "homepage": "https://github.com/EMORI-SERVULO/pizarra/",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "keywords": [],
   "author": "",
@@ -20,3 +20,4 @@
     "nodemon": "^2.0.3"
   }
 }
+
