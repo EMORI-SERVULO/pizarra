@@ -6,6 +6,9 @@
   "scripts": {
     "start": "node src/index.js"
   },
+    "publishConfig": {
+    "registry":"https://emori-servulo.github.io/pizarra/"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
